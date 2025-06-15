@@ -2,13 +2,13 @@
 
 
 ## Network Architecture
-![fig1.png](figs/fig2.jpg)
+![fig1.png](figs/fig1.jpg)
 
 ## Results and Saliency maps
 We perform quantitative comparisons and qualitative comparisons with 12 RGB-D SOD
 methods on six RGB-D datasets.
-![fig2.jpg](figs/fig3.jpg)
-![fig3.jpg](figs/fig4.jpg)
+![fig2.jpg](figs/fig2.jpg)
+![fig3.jpg](figs/fig3.jpg)
 
 ### Prerequisites
 - Python 3.6
