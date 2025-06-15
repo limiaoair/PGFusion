@@ -18,8 +18,6 @@ methods on six RGB-D datasets.
 
   install SSM
    ```
-  conda create -n vmunet python=3.8
-  conda activate vmunet
   pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
   pip install packaging
   pip install timm==0.4.12
@@ -32,7 +30,7 @@ methods on six RGB-D datasets.
    ```
 
 ### Datasets
- Put the [CoCo-SEG](https://drive.google.com/file/d/1GbA_WKvJm04Z1tR8pTSzBdYVQ75avg4f/view), [CoCA](http://zhaozhang.net/coca.html), [CoSOD3k](http://dpfan.net/CoSOD3K/) and [Cosal2015](https://drive.google.com/u/0/uc?id=1mmYpGx17t8WocdPcw2WKeuFpz6VHoZ6K&export=download) datasets to `DCFM/data` as the following structure:
+ Put the [CoCo-SEG](https://drive.google.com/file/d/1GbA_WKvJm04Z1tR8pTSzBdYVQ75avg4f/view), [CoCA](http://zhaozhang.net/coca.html), [CoSOD3k](http://dpfan.net/CoSOD3K/) and [Cosal2015](https://drive.google.com/u/0/uc?id=1mmYpGx17t8WocdPcw2WKeuFpz6VHoZ6K&export=download) datasets to `PGFusion/data` as the following structure:
   ```
   PGFusion
      ├── other codes
@@ -53,5 +51,25 @@ Feel free to send e-mails to me (lmiao@tongji.edu.cn).
 ## Relevant Literature
 
 ```text
-coming soon
+@misc{ruan2024vmunetvisionmambaunet,
+      title={VM-UNet: Vision Mamba UNet for Medical Image Segmentation}, 
+      author={Jiacheng Ruan and Jincheng Li and Suncheng Xiang},
+      year={2024},
+      eprint={2402.02491},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2402.02491}, 
+}
+
+@misc{yu2022democracydoesmattercomprehensive,
+      title={Democracy Does Matter: Comprehensive Feature Mining for Co-Salient Object Detection}, 
+      author={Siyue Yu and Jimin Xiao and Bingfeng Zhang and Eng Gee Lim},
+      year={2022},
+      eprint={2203.05787},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2203.05787}, 
+}
+
+...
 ```
