@@ -5,8 +5,8 @@
 ![fig1.png](figs/fig1.png)
 
 ## Results and Saliency maps
-We perform quantitative comparisons and qualitative comparisons with 12 RGB-D SOD
-methods on six RGB-D datasets.
+We perform quantitative comparisons and qualitative comparisons with 6 co-SOD
+methods on 3 datasets.
 ![fig2.jpg](figs/fig2.png)
 ![fig3.jpg](figs/fig3.png)
 
